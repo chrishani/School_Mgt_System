@@ -39,6 +39,13 @@
 					<form action="../stdnt_add" method="post" >
 						<label> Full Name </label>
 						<input type="text" class="form-control" name="name">
+						<label> Birthday </label>
+						<input type="date" class="form-control" name="bday">
+						<label> Gender </label>
+						<select name="gender" class="form-control">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+						</select>
 						<label> Address </label>
 						<input type="text" class="form-control" name="address">
 						<label> Father's Name </label>
@@ -50,7 +57,7 @@
 						<label> Mother's Job </label>
 						<input type="text" class="form-control" name="mjob">
 						<label> Contact Number </label>
-						<input type="text" class="form-control" name="conno">
+						<input type="number" class="form-control" name="conno">
 						<label> Photo </label>
 						<input type="file" class="form-control" name="photo">
 						<hr/>
