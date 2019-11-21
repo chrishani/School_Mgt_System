@@ -15,7 +15,7 @@
 						<a href="student/add.jsp"> Students </a>
  					</li>
   					<li class="list-group-item">
-						<a href=""> Academic Staff </a>
+						<a href="teacher/add.jsp"> Academic Staff </a>
   					</li>
   					<li class="list-group-item">
 						<a href=""> Non-Academic Staff </a>
