@@ -36,7 +36,7 @@
 				<div class="well well-lg">
 					<h3> Teachers Add </h3>
 					<hr/>
-					<form action="../stdnt_add" method="post" >
+					<form action="../teacher_add" method="post" >
 						<label> Full Name </label>
 						<input type="text" class="form-control" name="name">
 						<label> Birthday </label>
