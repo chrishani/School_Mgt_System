@@ -57,11 +57,11 @@
 							<option value="teacher">Teacher</option>
 						</select>
 						<label>Subjects</label>
-						<input type="text" class="form-control" name="mname">
+						<input type="text" class="form-control" name="subjects">
 						<label>In case Name</label>
-						<input type="text" class="form-control" name="mjob">
+						<input type="text" class="form-control" name="cname">
 						<label> Contact Number </label>
-						<input type="number" class="form-control" name="conno">
+						<input type="number" class="form-control" name="cnumber">
 						<label> Photo </label>
 						<input type="file" class="form-control" name="photo">
 						<hr/>
