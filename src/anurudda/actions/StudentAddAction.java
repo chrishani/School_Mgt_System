@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -25,6 +26,8 @@ public class StudentAddAction extends HttpServlet {
 			PrintWriter out = response.getWriter();
 			//1. Collect Input Feilds Values
 			String name = request.getParameter("name");
+			//Date bday = request.getParameter("bday");
+			String gender = request.getParameter("gender");
 			String address = request.getParameter("address");
 			String fname = request.getParameter("fname");
 			String mname = request.getParameter("mname");
