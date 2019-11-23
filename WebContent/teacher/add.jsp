@@ -48,13 +48,17 @@
 						</select>
 						<label> Address </label>
 						<input type="text" class="form-control" name="address">
-						<label> Father's Name </label>
-						<input type="text" class="form-control" name="fname">
-						<label> Father's Job </label>
-						<input type="text" class="form-control" name="fjob">
-						<label> Mother's Name </label>
+						<label>Contact No  </label>
+						<input type="number" class="form-control" name="fname">
+						<label> Position </label>
+						<select name="position" class="form-control">
+							<option value="principal">Principal</option>
+							<option value="vprincipal">Vice Principal</option>
+							<option value="teacher">Teacher</option>
+						</select>
+						<label>Subjects</label>
 						<input type="text" class="form-control" name="mname">
-						<label> Mother's Job </label>
+						<label>In case Name</label>
 						<input type="text" class="form-control" name="mjob">
 						<label> Contact Number </label>
 						<input type="number" class="form-control" name="conno">
